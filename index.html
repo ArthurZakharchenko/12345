@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+</head>
+	
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+
+
+	<header>
+		<div class="container">
+			<div class="heading clearfix">
+				<img src="Logo.jpg" width="85" class="logo">
+				<nav id="menu">
+					<ul class="menu"> 
+						<li>
+							<a href="#skills">My projects</a>
+						</li>
+						<li>
+							<a href="#about">About me</a>
+						</li>
+						<li>
+							<a href="#mycontacts">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="titles">
+				<div class="titles_first">
+					Welcome To My Portfolio page
+				</div>
+				<h1>
+					It's nice to Meet you
+				</h1>
+			</div>
+		</div>
+	</header>
+
+	<section id="skills">
+		<div class="container">
+			<div class="title">
+				<h2>
+					My projects
+				</h2>
+				<p>
+					<p>This department is empty because I haven't yet participated in the projects.</p>
+					<p>But I am sure that I will be very soon.</p>
+					<p>In the meantime, you can look at my skills.</p>
+				</p>
+			</div>
+			<div class="skills clearfix">
+				<div class="skill">
+					<img src="css.jpg" width="85">
+					<img src="html.jpg" width="85">
+					<img src="js.jpg" width="85">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<div class="title">
+				<h2>
+					About me
+				</h2>
+				<p>
+					<p>Hi, my name is Zakharchenko Arthur. Here you can</p>
+					<p>see where I study,what city I live in, and also</p>
+					<p>where I graduated from the JS courses.</p>
+				</p>
+			</div>
+			<div class="photo clearfix">
+				<img src="khai.png" width="250">
+				<img src="kharkiv.png" width="250">
+				<img src="nure.png" width="250">
+			</div>		
+		</div>
+	</section>
+
+	<section id="mycontacts">
+<div class="container">
+			<div class="title">
+				<h2>
+					Contacts
+				</h2>
+				<p>
+					You can contact me through these contacts.
+				</p>
+			</div>
+			<div class="contacts clearfix">
+				<div class="contact">
+					<img src="gmail.png" width="60">
+					<h3>G-mail :</h3>
+					<p>
+						manclassic2@gmail.com
+					</p>
+				</div>
+				<div class="contact">
+					<img src="telegram.jpg" width="60">
+					<h3>Telegram :</h3>
+					<p>
+						@Persona14
+					</p>
+				</div>
+				<div class="contact">
+					<img src="skype.jpg" width="60">
+					<h3>Skype :</h3>
+					<p>
+						Arthur Zakharchenko
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

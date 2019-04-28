@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Squada One', cursive;
+}
+
+.clearfix:after {
+ content: '';
+ display: table;
+ width: 100%;
+ clear: both;
+}﻿
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: #fff;
+	height: 600px;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 65px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block ;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #ccc;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.titles_first {
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+h1 {
+	font-size: 75px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.title {
+	padding-top: 200px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight :bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #000;
+	text-align: center;
+	font-seze: 16px;
+	margin-top: 5px;
+	line-height: 1px;
+}
+
+.skill{
+		margin-top: 200px;
+}
+
+.skill img {
+	float: left;
+}
+
+.skill img:last-child {
+	float: right;
+}
+
+.skill img:nth-child(2) {
+	margin-left: 340px;
+}
+
+#skills{
+	padding-bottom: 120px;
+}
+
+#about {
+	background: #FFFAF0;
+	margin-top: 100px;
+	padding-bottom: 120px;
+}
+
+.photo{
+		margin-top: 200px;
+}
+
+.photo img {
+	float: left;
+}
+
+.photo img:last-child {
+	float: right;
+}
+
+.photo img:nth-child(2) {
+	margin-left: 93px;
+}
+
+.contacts{
+	margin-top: 250px;
+}
+
+.contact{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.contact h3 {
+		font-size: 18px;
+		margin-bottom: 5px;
+}
+
+.contact a {
+	color: #ccc;
+	font-size: 18px;
+}
+
+.contact:last-child {
+	float: right;
+}
+
+.contact:nth-child(2) {
+	margin-left: 50px;
+}
+
+#mycontacts{
+	padding-bottom: 120px;
+}
